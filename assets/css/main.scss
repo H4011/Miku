@@ -9,6 +9,16 @@ article.page {
   font-size: 0.8rem;
 }
 
+::selection {
+    background: #86cecb !important;
+    color: #000 !important;
+}
+::-moz-selection {
+    background: #86cecb !important;
+    color: #000 !important;
+}
+
+
 a.site-title {
   font-family: 'M PLUS 1p', sans-serif;
   font-weight: 500;
